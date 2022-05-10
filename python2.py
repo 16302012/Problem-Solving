@@ -592,6 +592,6 @@ Created on Wed Mar 16 21:22:38 2022
 
 #print(reduce(accumulator, (my_numbers + scores)))
 
-a= [(0,2),(4,3),(10,-1),(9,9)]
-a.sort(key=lambda x: x[1])
-print(a)
+#a= [(0,2),(4,3),(10,-1),(9,9)]
+#a.sort(key=lambda x: x[1])
+#print(a)
