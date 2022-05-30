@@ -18,4 +18,4 @@ while True:
 
 with open(filename, 'a') as f:
     for response in responses:
-        f.write(f"{response}.upper()\n")
+        f.write(f"{response}\n")
