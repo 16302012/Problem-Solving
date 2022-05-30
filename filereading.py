@@ -4,7 +4,8 @@ Created on Sat May 28 21:00:30 2022
 
 @author: User
 """
-
-with open('test.txt') as file:
-    content = file.read()
-    print(content)
+file_path = 'C:/Users/User/Desktop/test.txt'
+with open(file_path) as file:
+    for line in file:
+        print(line)
+    
