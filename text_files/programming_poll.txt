@@ -1,0 +1,5 @@
+it is fun and interesting
+we can build anything we imagine
+it never gets old
+it is fun.upper()
+it never gets old.upper()
