@@ -7,7 +7,6 @@ Created on Tue May 31 17:12:27 2022
 
 import json
 filename = 'username.json'
-
 try:
     with open('text_files/filename') as file:
         username = json.load(file)
