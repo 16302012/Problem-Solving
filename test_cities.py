@@ -12,6 +12,10 @@ class CitiesTestCase(unittest.TestCase):
     def test_city_country(self):
         name = city_country('santiago', 'chile')
         self.assertEqual(name, "Santiago,Chile")
+    def city_country(city, country, population):
+        output_string = f"{city.title()}, {country.title()}"
+        output_string += f" -population {population}"
+        return output_string
         
 if __name__ == '__main__':
     unittest.main()
